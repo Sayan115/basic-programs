@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    
+</head>
+
+<body>
+    <link rel="stylesheet" href="payment.css">
+    <h1>Details Form</h1>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            College: <input type="text" name="myCollege">
+        </div>
+        <br>
+        <div>
+            Roll: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+           Email: <input type="text" name="myEmail">
+        </div>
+        <br>
+        <div>
+           Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+        <label for="colour">colour</label>
+        <select name="myColour" id="colour">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+        </select>
+        
+        </div>
+        <br>
+        <div>
+           Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+           Write about yourself: <br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+           Are you eligible?: <input type="checkbox" name="myEligiblity">
+        </div>
+        <br>
+        <div>
+           <input type="Submit" value="Submit Now">
+           <input type="Reset" value="Reset Now">
+        </div>
+    </form>
+    
+</body>
+</html>
