@@ -1,3 +1,4 @@
+## SORRY TO SAY BUT SOME HATERS REPORTED THIS REPO. AND EXCLUDED FROM HACKTOBERFEST
 Add your programs you made while learning new programming languages
 <div align="centre">
   
